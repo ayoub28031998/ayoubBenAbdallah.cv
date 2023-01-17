@@ -1,0 +1,125 @@
+<center>
+    <h2 style="padding-top: 50px;">PARCOURS <span>ACADEMIQUE</span></h2>
+</center>
+<nav class="parcoursAcademique">
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="/images/bd.png" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Manipulation base de donées</h2>
+                    <p class="title">Technique</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="/images/ui.png" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Licence</h2>
+                    <p class="title">Frontend</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="/images/back.png" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Backend</h2>
+                    <p class="title">Informatique</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+<nav class="parcoursProfessionel">
+    <div class="row">
+        <div class="columnpro">
+            <div class="card">
+                <center><img src="/images/i2s.png" style="width:70%"></center>
+
+                <div class="container">
+                    <h2>Stage </h2>
+                    <span class="title">Projet : </span> i2s.com <br>
+                    <span class="title">Lieu : </span> Ideal software solution <br>
+                    <span class="title">Durée : </span> 01/06/2021 _ 30/08/2021
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columnpro">
+            <div class="card">
+                <center><img src="/images/STUB.png" style="width:70%"></center>
+                <div class="container">
+                    <h2>Stage PFE</h2>
+                    <span class="title">Projet : </span> StubCompta<br>
+                    <span class="title">Lieu : </span> Stubborn software solution <br>
+                    <span class="title">Durée : </span> 01/02/2022 _ 04/30/2022
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+
+
+
+
+
+<nav class="parcoursAcademique">
+
+
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="/images/bacorig.jpeg" alt="Jane" style="width:100%">
+
+                <div class="container">
+                    <h2>Baccalaureat</h2>
+                    <p class="title">Technique</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="/images/bacorig.jpeg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Licence</h2>
+                    <p class="title">Informatique de gestion</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="/images/bacorig.jpeg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2>Génie Informatique</h2>
+                    <p class="title">Informatique</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>

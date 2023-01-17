@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #fdf9ef;
+}
+
+.index {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fdf9ef;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li {
+    margin-top: 0px;
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+nav ul li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.detel p {
+    color: #555;
+    line-height: 22px;
+}
+
+.but {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 10px;
+    top: 225px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .boy {
+    left: 45%;
+}
+
+.lien img {
+    width: 2%;
+}
+
+/*parcours*/
+.card {
+    width: 315px;
+    height: 374px;
+    background: whitesmoke;
+    padding: .4em;
+    border-radius: 6px;
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 60%;
+    border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+    transform: scale(0.98);
+    transition: all(0.3s);
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.parcoursAcademique {
+    margin-top: 10px;
+    padding-top: 5%;
+    justify-content: center;
+    width: 65%;
+}
+
+.columnstage {
+    border-radius: 0 2em 2em 0;
+    padding: 10px;
+    height: 150px;
+
+    /* Should be removed. Only for demonstration */
+}
+
+.columnstage1 {
+
+    padding: 10px;
+    height: 150px;
+
+    /* Should be removed. Only for demonstration */
+}
+
+.rowstage {
+    border-radius: 2em;
+}
+
+.rowstage:hover {
+    transform: scale(0.95);
+    transition: all 0.7s;
+    box-shadow: 0 2px 50px #23232333;
+}
+
+.columnstage p {
+    text-align: justify;
+
+}
+
+.columnstage h2 {
+    text-align: left;
+}
+
+.columnstage h4 {
+    text-align: left;
+}
+
+/* Clear floats after the columns */
+.rowstage:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.rowstage {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    box-shadow: 0 2px 50px #23232333;
+}
+
+.prof {
+    margin-top: 5%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 9%;
+    background-color: #fdf9ef;
+    align-items: center;
+}
+
+/*Competences*/
+.bd {
+    margin: 100px 0;
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.bd .text {
+
+    padding-top: 10%;
+}
+
+
+
+/*vie associative*/
+/*Magic card*/
+.card1 {
+    width: 390px;
+    height: 354px;
+    background: #f5f5f5;
+    overflow: visible;
+    box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 0 1rem;
+}
+
+.card1-img {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background: #ffe342;
+    background: linear-gradient(to bottom, #ffe342 0%, #f17800 100%);
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.card1-img::before {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid #e8e8e8;
+}
+
+/*Text*/
+.text-title {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: #f17800;
+    letter-spacing: 0.05rem;
+}
+
+.text-body {
+    font-size: .8em;
+    text-align: center;
+    color: #6f6d78;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Hover*/
+.card1:hover .card1-img {
+    --size: 110px;
+    width: var(--size);
+    height: var(--size);
+}
+
+.vieassociative {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*hire me*/
+.container {
+    margin-top: 8%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 40%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5em;
+}
+
+input[type=textarea] {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 2em;
+}
+
+input[type=textarea]:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    float: right;
+    border: #f17800 solid 2px;
+    background-color: #f17800;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border-radius: 5em;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+    background-color: white;
+    color: #f17800;
+    border: #f17800 solid 2px;
+    transition: all 0.3s;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/*quiz*/
+/* Center the quiz container */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.quiz-container {
+    margin-top: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #f17800;
+    color: #fff;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    border: solid 3px #f17800;
+    border-radius: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+    color: #f17800;
+    transition: all .3s;
+    border: solid 3px #f17800;
+    border-radius: 5em;
+}
+
+button:focus {
+    outline: none;
+    background-color: #f17800;
+}
